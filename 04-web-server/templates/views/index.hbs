@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="icon" href="/images/icon-weather.png">
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <form>
+        <input id="lat" placeholder="Latitude">
+        <input id="long" placeholder="Longitude">
+        <button>Search</button>
+      </form>
+      <p id="msg-1"></p>
+      <p id="msg-2"></p>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+  </body>
+</html>
